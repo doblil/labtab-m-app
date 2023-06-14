@@ -1,0 +1,47 @@
+@import '../../sass/base/variables.scss';
+
+.desc{
+    height: 100%;
+    overflow: auto;
+    &__wrap{
+        display: flex;
+        align-items:center;
+
+    }
+    &__jar{
+        padding-left:20px;
+        width: 100%;
+        height: 100%;
+        max-width: 170px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 100%;
+        }
+    }
+    &__jar-scale{
+        height: 64%;
+        width: 64%;
+        position: absolute;
+        bottom: 12%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    &__jar-inner{
+        height: 50%;
+        width: 100%;
+        background-color: rgb(47, 239, 159);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 18%;
+    }
+    &__jar-text{
+        font-size: 13px;
+        font-weight: 800;
+        z-index: 1;
+    }
+}

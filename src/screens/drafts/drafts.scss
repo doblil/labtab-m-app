@@ -1,0 +1,25 @@
+@import '../../sass/base/variables.scss';
+
+.drafts{
+    height: 100%;
+    overflow: auto;
+    &__item{
+        background-color: white;
+        padding: 10px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    &__text{
+        font-size: 9px;
+        font-weight: 700;
+        margin-bottom: 7px;
+    }
+    &__wrap{
+        display: flex;
+        align-items: center;
+    }
+
+}

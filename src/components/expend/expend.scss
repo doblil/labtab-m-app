@@ -1,0 +1,23 @@
+@import '../../sass/base/variables.scss';
+
+.expend{
+    background-color: $substrate-color;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: $main-shadow;
+    input{
+        width: 100%;
+        margin-bottom: 14px;
+        margin-top: -5px;
+    }
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        width: 46%;
+    }
+}
