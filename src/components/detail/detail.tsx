@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './detail.scss'
 
 function Detail() {
-
+ 
     const [showDetails, setShowDetails] = useState(false)
 
     const handleShowDetails = () => {
