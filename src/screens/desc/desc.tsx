@@ -29,6 +29,7 @@ function Desc() {
                     </div>
                 </div>
             </div>
+            
             <Detail/>
             <Expend/>
         </div>
